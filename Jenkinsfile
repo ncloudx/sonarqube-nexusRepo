@@ -42,7 +42,7 @@ pipeline {
                 credentialsId: 'nexus',
                 groupId: 'SampleWebApp',
                 nexusUrl: 'http://ec2-204-236-200-94.compute-1.amazonaws.com:8081',
-                nexusVersion: 'nexus3',
+                nexusVersion: 'nexus2',
                 protocol: 'http',
                 repository: 'maven-snapshots',
                 version: '1.0-SNAPSHOT'
